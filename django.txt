@@ -1,0 +1,8 @@
+1. Ustawienia settings.py
+	jezyk, strefa czasowa, ewentualnie dodanie bazy danych, nasze apki, 
+	allowed hosts:  ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+	dodanie: STATIC_ROOT = os.path.join(BASE_DIR, 'static') 
+2. Dodanie modeli(klas i metod) w models.py (pamietac o wykonaniu makemigrate i migration)
+3. Dodanie do admin.py (aby byl widoczny w panelu admina):
+	from .models import Post
+	admin.site.register(Post)
