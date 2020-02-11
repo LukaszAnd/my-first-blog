@@ -6,3 +6,5 @@
 3. Dodanie do admin.py (aby byl widoczny w panelu admina):
 	from .models import Post
 	admin.site.register(Post)
+4. Git, GitHub i PythonAnywhere
+5. URL-e
